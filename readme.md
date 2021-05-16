@@ -1,10 +1,18 @@
-# Reusable SharePoint Online CSS Classess for Modern UI
+![JSON Formatting](https://img.shields.io/badge/SharePoint-Online-green.svg) 
+![SPFx](https://img.shields.io/badge/SPFx-green.svg)
+![Modern UI](https://img.shields.io/badge/Modern_UI-green.svg) 
+![JSON Formatting](https://img.shields.io/badge/JSON_Formatting-green.svg) 
 
-Use these classes in your JSON column formatter and custom SPFx web parts. 
+# Reusable SharePoint Online CSS Classes for Modern UI
+
+CSS classes to be used in JSON column formatters and SharePoint Framework solutions. These CSS classes are used by the modern SharePoint UI. Here you can see a preview of every CSS class.
 
 <hr>
-[Browse full list of SharePoint Online Classess](https://zerg00s.github.io/sp-modern-classes/)
+<br>
 
+## [🔍 Browse the full list of SharePoint Online CSS classes](https://zerg00s.github.io/sp-modern-classes/)
 
-![image](image.png)
+<br>
+
+![image](ModernClasses.gif)
 
