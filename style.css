@@ -2,6 +2,24 @@ h1, .my-container span, .caption {
     padding: 0 20px; /* Reduced padding for smaller screens */
 }
 
+.report-issue {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.report-issue a {
+    color: #707070; /* Subtle grey color, adjust as needed */
+    text-decoration: none; /* Removes underline */
+    font-size: 0.9em; /* Smaller than normal text */
+}
+
+.report-issue a:hover, .report-issue a:focus {
+    text-decoration: underline; /* Adds underline on hover/focus for better accessibility */
+    color: #505050; /* Slightly darker on hover/focus */
+}
+
+
 .my-container{
     user-select: none;
 }
