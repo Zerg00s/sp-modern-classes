@@ -5195,8 +5195,8 @@ html[dir=rtl] .od-Toggle .od-Label {
 .od-Toggle .od-Toggle-field .ms-Label,
 .od-Toggle .od-Toggle-field .od-Label {
     color: #000000;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    
+    
     user-select: none
 }
 
@@ -6108,9 +6108,9 @@ body {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    
+    
+    
     user-select: none
 }
 
@@ -6536,9 +6536,9 @@ ul.ms-Nav-navItems {
 }
 
 .sp-App-root {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    
+    
+    
     user-select: none
 }
 
@@ -8210,10 +8210,10 @@ html[dir='rtl'] .ms-DetailsRow-cell--VerticallyCenter .heroButton_2ca50ba6 i {
 
 .ms-DetailsRow-cell .ms-Link.nameField_5dab7028 {
     font-size: 14px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    
+   
+    
+   
     color: #323130
 }
 
@@ -8974,10 +8974,10 @@ html[dir='rtl'] .missingMetadataIcon_aaad21b8 {
     background-color: #fff;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    
+   
+    
+   
     -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
     box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
     border-radius: 2px;
@@ -9053,9 +9053,9 @@ html[dir='rtl'] .missingMetadataIcon_aaad21b8 {
 .root_243bd213 {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    
+   
+    
     user-select: none
 }
 
@@ -20222,9 +20222,9 @@ html[dir=rtl] .od-ListGroupHeader-check {
     width: 18px;
     height: 18px;
     cursor: default;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    
+    
+    
     user-select: none
 }
 
@@ -21147,9 +21147,9 @@ html[dir='rtl'] .isLarge_c31d9fb7 .signal_c31d9fb7 {
     transition: transform 0.1s linear;
     transition: transform 0.1s linear, -webkit-transform 0.1s linear;
     color: #323130;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    
+   
+    
     user-select: none
 }
 
@@ -21789,10 +21789,10 @@ html[dir='rtl'] .hasBackgroundFrame_6798cc8b .activity_6798cc8b {
     height: 18px;
     vertical-align: top;
     position: relative;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    
+    
+   
+    
     user-select: none
 }
 
@@ -22061,9 +22061,9 @@ button.link_41f5d93a {
     display: inline;
     line-height: 32px;
     height: 32px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    
+   
+    
     user-select: none
 }
 
@@ -22153,10 +22153,10 @@ html[dir='rtl'] button.link_41f5d93a {
     line-height: 28px;
     text-align: center;
     width: 32px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    
+   
+    
+   
     vertical-align: middle
 }
 
@@ -22425,10 +22425,10 @@ html[dir='rtl'] .analyticsStatsLink_41f5d93a .ms-ActivityItem-activityContent {
     background-color: #fff;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    
+   
+    
+   
     -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
     box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
     border-radius: 2px;
@@ -26107,11 +26107,11 @@ html[dir=rtl] ._2qXRr4JtiGTf-vxgB5qizh {
     height: 48px;
     line-height: normal;
     text-decoration: none !important;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    
+    
+   
+    
+   
     transition: border-color 83ms linear, box-shadow 83ms linear
 }
 
@@ -29765,9 +29765,9 @@ a.mectrl_trigger {
     position: relative;
     height: auto;
     padding: 12px 14px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
+    
+   
+   
     cursor: pointer;
     font: 12px SegoeUI-Regular-final, Segoe UI, "Segoe UI Web (West European)", Segoe, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Tahoma, Helvetica, Arial, sans-serif;
     touch-action: pan-x pan-y pinch-zoom manipulation;
@@ -33572,9 +33572,9 @@ html[dir='rtl'] .suggestionsSpinner_fb873249 .ms-Spinner-label {
     vertical-align: top;
     white-space: nowrap;
     cursor: default;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    
+   
+    
     user-select: none
 }
 
@@ -34015,10 +34015,10 @@ html[dir='rtl'] .suggestionsSpinner_fb873249 .ms-Spinner-label {
 
 .ms-PickerPersonaMenu-container {
     cursor: default;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    
+   
+    
+   
     margin-top: 10px
 }
 
@@ -42257,8 +42257,8 @@ html[dir=rtl] .od-Toggle .od-Label {
 .od-Toggle .od-Toggle-field .ms-Label,
 .od-Toggle .od-Toggle-field .od-Label {
     color: #000000;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    
+    
     user-select: none
 }
 
@@ -43170,9 +43170,9 @@ body {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    
+    
+    
     user-select: none
 }
 
@@ -43598,9 +43598,9 @@ ul.ms-Nav-navItems {
 }
 
 .sp-App-root {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    
+    
+    
     user-select: none
 }
 
@@ -45272,10 +45272,10 @@ html[dir='rtl'] .ms-DetailsRow-cell--VerticallyCenter .heroButton_2ca50ba6 i {
 
 .ms-DetailsRow-cell .ms-Link.nameField_5dab7028 {
     font-size: 14px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    
+   
+    
+   
     color: #323130
 }
 
@@ -46036,10 +46036,10 @@ html[dir='rtl'] .missingMetadataIcon_aaad21b8 {
     background-color: #fff;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    
+   
+    
+   
     -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
     box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
     border-radius: 2px;
@@ -46115,9 +46115,9 @@ html[dir='rtl'] .missingMetadataIcon_aaad21b8 {
 .root_243bd213 {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    
+   
+    
     user-select: none
 }
 
@@ -55459,9 +55459,9 @@ html[dir=rtl] .od-ListGroupHeader-check {
     width: 18px;
     height: 18px;
     cursor: default;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    
+    
+    
     user-select: none
 }
 
@@ -56384,9 +56384,9 @@ html[dir='rtl'] .isLarge_c31d9fb7 .signal_c31d9fb7 {
     transition: transform 0.1s linear;
     transition: transform 0.1s linear, -webkit-transform 0.1s linear;
     color: #323130;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    
+   
+    
     user-select: none
 }
 
@@ -57026,10 +57026,10 @@ html[dir='rtl'] .hasBackgroundFrame_6798cc8b .activity_6798cc8b {
     height: 18px;
     vertical-align: top;
     position: relative;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    
+    
+   
+    
     user-select: none
 }
 
@@ -57298,9 +57298,9 @@ button.link_41f5d93a {
     display: inline;
     line-height: 32px;
     height: 32px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    
+   
+    
     user-select: none
 }
 
@@ -57390,10 +57390,10 @@ html[dir='rtl'] button.link_41f5d93a {
     line-height: 28px;
     text-align: center;
     width: 32px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    
+   
+    
+   
     vertical-align: middle
 }
 
@@ -57662,10 +57662,10 @@ html[dir='rtl'] .analyticsStatsLink_41f5d93a .ms-ActivityItem-activityContent {
     background-color: #fff;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    
+   
+    
+   
     -webkit-box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
     box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
     border-radius: 2px;
