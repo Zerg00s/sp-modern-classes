@@ -1,19 +1,19 @@
-h1 {
-    padding: 0 40px;
+h1, .my-container span, .caption {
+    padding: 0 20px; /* Reduced padding for smaller screens */
 }
+
 
 .my-container span {
     width: 100%;
     display: block;
     height: 40px;
-    margin: 0 90px;
     user-select: text;
 
 }
 
 .my-container table {
-    width: 90%;
-    user-select: text;
+    width: 80%; /* Use full width for smaller screens */
+    margin: 0 auto; /* Center the table */
 }
 
 /* Hide button by default and show on hover */
@@ -29,19 +29,19 @@ tr {
 /* Style for the copy button */
 .copy-btn {
     position: absolute;
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 45%;
+    left: 50%; /* Center horizontally relative to the parent element */
+    transform: translate(-50%, -50%); /* Adjust horizontally and vertically */
     visibility: hidden;
     cursor: pointer;
     border: none;
     background-color: #4CAF50;
-    /* Green background */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 0.8em;
 }
+
 
 /* Show the button on hover */
 tr:hover .copy-btn {
@@ -53,7 +53,7 @@ span {
     display: block;
 }
 
-    
+
 
 
 footer {
@@ -61,7 +61,13 @@ footer {
     border-top: 1px solid #e8e8e8;
     border-color: #e0e5e6;
     background: #f6f8f8;
-    padding: 40px;
+    padding: 20px 10px; /* Reduced padding */
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 footer a {
@@ -73,24 +79,19 @@ footer img {
     height: 32px;
 }
 
-.container {
-    display: flex;  
-    justify-content: center;
-    align-content: center;
-}
 
-.logo{
+.logo {
     height: 32px;
 }
 
-.header{
+.header {
     border-bottom: 1px solid #e8e8e8;
     border-color: #e0e5e6;
     background: #f6f8f8;
     margin-bottom: 40px;
 }
 
-.classes span{
+.classes span {
     padding-left: 10px;
     padding-top: 10px;
     margin-bottom: 5px;
@@ -103,21 +104,73 @@ footer img {
 }
 
 .sp-logo {
-    height: 72px;
-    margin-left: 60px;
-    margin-top: 20px;
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin: 0 auto; /* Automatically calculates left and right margins to center the element */
+    height: 72px; /* Adjust the height as necessary */
+    padding-top: 20px;;
+}
+
+.sp-logo, .footer-social-icon img {
+    height: 36px; /* Adjust size for smaller screens */
 }
 
 .title {
-    font-size: 32px;
-    display: inline !important;
+    font-size: 32px; /* Adjust as necessary */
+    display: block; /* Change from inline to block for better control over positioning */
+    text-align: center; /* Center the text */
+    margin: 20px auto; /* Ensure the margin is auto to center block elements */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top: -23px;
-    position: relative;
+    position: relative; /* Keep if you need to adjust the position relative to its normal position */
+    padding: 20px 0; /* Add some padding on top and bottom if needed */
 }
 
 .caption {
     margin-left: 190px;
     top: -23px;
     position: relative;
+    margin: 30px 10px 20px 10px; /* Adjust for smaller screens */
+    text-align: center; /* Center-align caption text */
+}
+
+@media (max-width: 768px) {
+    .sp-logo {
+        margin-left: 20px; /* Adjust logo margin on smaller screens */
+        margin: 0 auto; /* Ensure the margin is auto to center block elements */
+    }
+
+    .title, .caption {
+        margin-left: 20px; /* Adjust left margin for title and caption */
+        text-align: center; /* Center-align text for better mobile layout */
+    }
+
+    .caption {
+        margin-top: 10px; /* Reduce space above the caption */
+        position: static; /* Reset position to default */
+    }
+
+    .footer-social-icon img {
+        height: 40px; /* Slightly larger icons for easier interaction */
+    }
+
+    .container {
+        padding: 0 15px; /* Add some padding on the sides */
+    }
+}
+
+@media (max-width: 480px) {
+    .header, .my-container, footer {
+        padding: 0 10px; /* Further reduce padding for very small screens */
+    }
+
+    .title {
+        font-size: 20px; /* Further reduce title size for very small screens */
+    }
+
+    .footer-social-icon img {
+        height: 36px; /* Adjust icon size for consistency */
+    }
+
+    .classes span {
+        font-size: 14px; /* Adjust text size for readability on small screens */
+    }
 }

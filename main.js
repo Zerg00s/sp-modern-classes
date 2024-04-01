@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             span.className = string;
             span.textContent = string;
 
-            btn.textContent = 'Copy'; // Text for the button
+            btn.textContent = '📋 Copy'; // Text for the button
             btn.className = 'copy-btn';
             btn.setAttribute('data-class', string); // Store class string in button for easy access
 
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
             navigator.clipboard.writeText(classToCopy).then(() => {
                 // Show feedback to the user
                 const originalText = event.target.textContent;
-                event.target.textContent = 'Copied!'; // Change button text to indicate success
+                event.target.textContent = '✔️ Copied!'; // Change button text to indicate success
                 event.target.style.backgroundColor = '#34A853'; // Optional: Change button color to green
                 setTimeout(() => {
                     event.target.textContent = originalText; // Revert button text after 1.5 seconds
@@ -50,5 +50,5 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
     });
-
+    
 });
