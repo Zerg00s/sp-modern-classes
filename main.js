@@ -1,8 +1,12 @@
 function loadClassesData() {
     return fetch('refined-classes.txt')
         .then(response => response.text())
-        .then(data => data.split('\n'));
+        .then(data => {
+            // Split data on any combination of new line characters and remove empty strings
+            return data.split(/\r\n|\n|\r/).filter(row => row.trim() !== '');
+        });
 }
+
 
 document.addEventListener('DOMContentLoaded', function () {
     loadClassesData().then(classesRows => {
