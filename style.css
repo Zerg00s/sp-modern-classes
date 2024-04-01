@@ -1,3 +1,61 @@
+h1 {
+    padding: 0 40px;
+}
+
+.my-container span {
+    width: 100%;
+    display: block;
+    height: 40px;
+    margin: 0 90px;
+    user-select: text;
+
+}
+
+.my-container table {
+    width: 90%;
+    user-select: text;
+}
+
+/* Hide button by default and show on hover */
+tr:hover .copy-btn {
+    visibility: visible;
+}
+
+/* Style for the table row container */
+tr {
+    position: relative;
+}
+
+/* Style for the copy button */
+.copy-btn {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    visibility: hidden;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+/* Show the button on hover */
+tr:hover .copy-btn {
+    visibility: visible;
+}
+
+/* Style for the text span */
+span {
+    display: block;
+}
+
+    
+
+
 footer {
     margin-top: 40px;
     border-top: 1px solid #e8e8e8;
@@ -36,18 +94,21 @@ footer img {
     padding-left: 10px;
     padding-top: 10px;
     margin-bottom: 5px;
-    /* -webkit-text-stroke: 1px black; */
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.classes span::before{
+
+.classes span::before {
     content: '.';
 }
-.sp-logo{
+
+.sp-logo {
     height: 72px;
     margin-left: 60px;
     margin-top: 20px;
 }
-.title{
+
+.title {
     font-size: 32px;
     display: inline !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -55,8 +116,8 @@ footer img {
     position: relative;
 }
 
-.caption{
+.caption {
     margin-left: 190px;
-    top:-23px;
+    top: -23px;
     position: relative;
 }
