@@ -1,7 +1,7 @@
 function loadClassesData() {
     return fetch('refined-classes.txt')
         .then(response => response.text())
-        .then(data => data.split('\r\n'));
+        .then(data => data.split('\n'));
 }
 
 document.addEventListener('DOMContentLoaded', function () {
