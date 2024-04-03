@@ -2,6 +2,10 @@ h1, .my-container span, .caption {
     padding: 0 20px; /* Reduced padding for smaller screens */
 }
 
+.title, .caption, .report-issue, .classes-body span{
+    user-select: text !important;
+}
+
 .report-issue {
     text-align: center;
     margin-top: 0px;
@@ -20,15 +24,11 @@ h1, .my-container span, .caption {
 }
 
 
-.my-container{
-    user-select: none;
-}
 
 .my-container span {
     width: 100%;
     display: block;
     height: 40px;
-    user-select: text;
 
 }
 
@@ -110,7 +110,6 @@ footer img {
     border-color: #e0e5e6;
     background: #f6f8f8;
     margin-bottom: 40px;
-    user-select: none;
 }
 
 .classes span {
@@ -130,7 +129,6 @@ footer img {
     margin: 0 auto; /* Automatically calculates left and right margins to center the element */
     height: 72px; /* Adjust the height as necessary */
     padding-top: 20px;
-    user-select: none; /* Disables text selection */
 }
 
 .sp-logo, .footer-social-icon img {
@@ -145,7 +143,6 @@ footer img {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative; /* Keep if you need to adjust the position relative to its normal position */
     padding: 20px 0; /* Add some padding on top and bottom if needed */
-    user-select: none; /* Disables text selection */
 }
 
 .caption {
@@ -154,7 +151,6 @@ footer img {
     position: relative;
     margin: 30px 10px 20px 10px; /* Adjust for smaller screens */
     text-align: center; /* Center-align caption text */
-    user-select: none; /* Disables text selection */
     
 }
 

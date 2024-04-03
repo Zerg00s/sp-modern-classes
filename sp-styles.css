@@ -6111,7 +6111,6 @@ body {
     
     
     
-    user-select: none
 }
 
 body:before {
@@ -6535,12 +6534,6 @@ ul.ms-Nav-navItems {
     margin-top: 0
 }
 
-.sp-App-root {
-    
-    
-    
-    user-select: none
-}
 
 input,
 textarea {
@@ -43167,10 +43160,6 @@ body {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    
-    
-    
-    user-select: none
 }
 
 body:before {
@@ -43594,12 +43583,6 @@ ul.ms-Nav-navItems {
     margin-top: 0
 }
 
-.sp-App-root {
-    
-    
-    
-    user-select: none
-}
 
 input,
 textarea {
