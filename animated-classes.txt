@@ -1,0 +1,10 @@
+ms-motion-fadeIn
+ms-motion-fadeOut
+ms-motion-scaleDownIn
+ms-motion-scaleDownOut
+ms-motion-slideDownOut
+ms-motion-slideLeftIn
+ms-motion-slideLeftOut
+ms-motion-slideRightIn
+ms-motion-slideRightOut
+ms-motion-slideUpIn

@@ -24,6 +24,9 @@ h1, .my-container span, .caption {
 }
 
 
+.toggle-slider{
+    height: 24px !important;    
+}
 
 .my-container span {
     width: 100%;
@@ -39,7 +42,8 @@ h1, .my-container span, .caption {
 
 /* Hide button by default and show on hover */
 tr:hover .copy-btn {
-    visibility: visible;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important;
+    visibility: visible !important;
 }
 
 /* Style for the table row container */
@@ -49,7 +53,12 @@ tr {
 
 /* Style for the copy button */
 .copy-btn {
-    position: absolute;
+    opacity: 1 !important; /* Override any opacity from parent */
+    z-index: 100 !important; /* Keep button above everything else */
+    position: absolute !important; /* Keep button positioned correctly */
+    background-color: #4CAF50 !important; /* Force button background color */
+    color: white !important; /* Force text color */
+
     top: 45%;
     left: 50%; /* Center horizontally relative to the parent element */
     transform: translate(-50%, -50%); /* Adjust horizontally and vertically */
